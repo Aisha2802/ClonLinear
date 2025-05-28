@@ -9,8 +9,10 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  base: "/ClonLinear/",
   plugins: [
     remix({
+      basename:'/ClonLinear/',
       ssr: false,
       future: {
         v3_fetcherPersist: true,
