@@ -6,9 +6,9 @@ import Issue19 from "~/components/Issue19";
 export default function pricing() {
     return (
         <div>
-           {/* Carlos Andrés Alvarez Arreygue  <Issue19 /> */}
-            {/* Jesus Kevin Aguirre Acosta  <Issue20 /> */}
-            {/* By Oscar Kuricaveri Zamudio Samian   <Issue21 />*/}
+           <Issue19 />{/* Carlos Andrés Alvarez Arreygue   */}
+           <Issue20 /> {/* Jesus Kevin Aguirre Acosta   */}
+           <Issue21 /> {/* By Oscar Kuricaveri Zamudio Samian   */}
         </div>
     );
 }
